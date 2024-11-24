@@ -46,7 +46,7 @@ function addRow() {
             <option value="ap">AP/IB</option>
         </select>`;
     cell4.innerHTML = '<input type="number" min="0" step="0.5" required oninput="calculateGPA()">';
-    cell5.innerHTML = '<button type="button" class="delete" onclick="deleteRow(this)">Delete</button>';
+    cell5.innerHTML = '<button type="button"class="delete" onclick="deleteRow(this)">Delete</button>';
 }
 function deleteRow(button) {
     const row = button.parentNode.parentNode;
